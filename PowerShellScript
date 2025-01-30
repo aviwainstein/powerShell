@@ -1,0 +1,6 @@
+while($true){
+Start-Process cmd -WindowStyle Minimized
+sleep -Seconds 1
+Stop-Process -Name cmd
+sleep -Seconds 120
+}
