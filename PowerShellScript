@@ -6,4 +6,4 @@ sleep -Seconds 120
 }
 
 
-ExecuteChangeSet , DescribeImages , ListTopics , ListRoles , GetAccountSummary , DescribeAccountAttributes , ListAttachedRolePolicies , GetMacieSession , DescribeSubnets , DescribeVolumes , DescribeAddresses , GetTopicAttributes , ListStackSets , GetBucketTagging , BatchGetResourceConfig , GetResources , ListTagsForResource , DescribeConfigurationRecorderStatus , ListClusters , DescribeEventSubscriptions
+
