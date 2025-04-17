@@ -1,9 +1,7 @@
-while($true){
-Start-Process cmd -WindowStyle Minimized
-sleep -Seconds 1
-Stop-Process -Name cmd
-sleep -Seconds 120
+while ($true) {
+Start-Process -FilePath "cmd.exe" -WindowStyle Minimized
+Start-Sleep -Seconds 1
+Get-Process cmd | Stop-Process -Force -ErrorAction SilentlyContinue
+Start-Sleep -Seconds 120 
 }
-
-
 
